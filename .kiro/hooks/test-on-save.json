@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run tests on save",
+      "trigger": "PostFileSave",
+      "description": "Runs the Vitest + fast-check suite once whenever a TypeScript source file under src/ is saved.",
+      "matcher": "src/.*\\.(ts|tsx)$",
+      "action": {
+        "type": "command",
+        "command": "npx vitest run --reporter=dot",
+        "timeout": 120
+      }
+    }
+  ]
+}

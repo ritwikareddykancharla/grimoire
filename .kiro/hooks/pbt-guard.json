@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Property tests for pure logic",
+      "trigger": "PostToolUse",
+      "description": "After the agent edits a file, reminds it to keep src/lib covered by property-based tests and to route third-party HTML through the sanitizer.",
+      "matcher": "fs_write|str_replace|fs_append",
+      "action": {
+        "type": "agent",
+        "prompt": "If the file you just changed is in src/lib/ (and is not a test), make sure its behavior is covered by fast-check properties in the matching *.test.ts file, using a seeded Rng for any randomness. If you changed a rule from .kiro/specs/grimoire/requirements.md, update the property table in design.md too. If the file is in src/components/ and renders HTML from Wikipedia, confirm it goes through prepareArticle()."
+      }
+    }
+  ]
+}
