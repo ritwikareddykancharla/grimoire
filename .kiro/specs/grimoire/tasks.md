@@ -41,10 +41,10 @@
 - [x] 9. Responsive layout and reduced-motion support
   - _Requirements: 6.2–6.4_
 
-- [ ] 10. GitHub Pages deployment
+- [x] 10. GitHub Pages deployment
   - [x] 10.1 Workflow: test, build, deploy on push to `main`
-  - [ ] 10.2 Create the public GitHub repo, push, enable Pages (Settings → Pages → Source: GitHub Actions)
-  - [ ] 10.3 Add the live URL to README and the repo About section
+  - [x] 10.2 Create the public GitHub repo, push, enable Pages (Source: GitHub Actions)
+  - [x] 10.3 Add the live URL to README and the repo About section
   - _Requirements: 7.3_
 
 - [ ] 11. Polish pass in a real browser

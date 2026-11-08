@@ -2,7 +2,7 @@
 
 **The 90s multimedia CD-ROM encyclopedia, raised from the dead on live Wikipedia data.**
 
-Kiroween 2026 entry, **Resurrection** category.
+Kiroween 2026 entry, **Resurrection** category. **Live: https://ritwikareddykancharla.github.io/grimoire/**
 
 In the 90s, encyclopedias came on CD-ROM. They had media galleries, timelines and a quiz game that turned reading into an adventure. Wikipedia replaced them with something far bigger, but dense, citation-heavy pages are hard going for kids. Grimoire '95 brings the old way of exploring back, with Wikipedia's 6+ million articles behind it and a Halloween coat of paint.
 
